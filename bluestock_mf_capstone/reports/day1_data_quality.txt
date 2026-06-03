@@ -1,0 +1,41 @@
+DATA QUALITY REPORT
+
+01_fund_master.csv
+- No missing AMFI codes.
+- Category names consistent.
+- No duplicate records.
+
+02_nav_history.csv
+- No missing NAV values.
+- Date column stored as object and requires conversion.
+- No invalid NAV values.
+
+03_aum_by_fund_house.csv
+- No anomalies found.
+
+04_monthly_sip_inflows.csv
+- No anomalies found.
+
+05_category_inflows.csv
+- No anomalies found.
+
+06_industry_folio_count.csv
+- No anomalies found.
+
+07_scheme_performance.csv
+- All performance metrics available.
+- No negative Sharpe ratios.
+
+08_investor_transactions.csv
+- Transaction types valid.
+- No negative transaction amounts.
+
+09_portfolio_holdings.csv
+- Holdings data valid.
+
+10_benchmark_indices.csv
+- No missing benchmark values.
+
+Overall Status:
+PASS
+Data suitable for cleaning and SQL loading in Day 2.
