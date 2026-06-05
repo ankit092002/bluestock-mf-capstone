@@ -58,3 +58,5 @@ for table in tables["name"]:
 
     except Exception as e:
         print(f"Error in {table}: {e}")
+
+        
